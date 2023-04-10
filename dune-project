@@ -28,7 +28,11 @@
  (description
   "Implementation of the version 5 of the Squirrel noise function as presented at GDC: https://youtu.be/LWFzPP8ZbdU.")
  (depends
+  integers
+  (ocaml
+   (>= 4.05.0))
   ; Test
   (alcotest :with-test)
-  (ocaml
-   (>= 4.05.0))))
+  (conf-npm :with-test)
+  (integers_stubs_js :with-test)
+  (js_of_ocaml :with-test)))

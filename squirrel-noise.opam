@@ -12,8 +12,12 @@ homepage: "https://github.com/mefyl/ocaml-squirrel-noise"
 bug-reports: "https://github.com/mefyl/ocaml-squirrel-noise"
 depends: [
   "dune" {>= "3.0"}
-  "alcotest" {with-test}
+  "integers"
   "ocaml" {>= "4.05.0"}
+  "alcotest" {with-test}
+  "conf-npm" {with-test}
+  "integers_stubs_js" {with-test}
+  "js_of_ocaml" {with-test}
   "odoc" {with-doc}
 ]
 build: [

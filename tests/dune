@@ -1,7 +1,14 @@
 (test
  (name test)
+ (modules test)
  (libraries alcotest squirrel_noise)
  (foreign_stubs
   (language cxx)
   (include_dirs include)
   (names SquirrelNoise5)))
+
+(test
+ (name js)
+ (modes js)
+ (modules js)
+ (libraries alcotest integers_stubs_js squirrel_noise))
