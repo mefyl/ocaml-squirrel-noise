@@ -1,0 +1,4 @@
+(library
+ (name squirrel_noise)
+ (public_name squirrel-noise)
+ (libraries integers))
