@@ -1,5 +1,7 @@
 # Squirrel Noise implementation in pure OCaml
 
+[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https://ocaml.ci.dev/badge/mefyl/ocaml-squirrel-noise/master&logo=ocaml)](https://ocaml.ci.dev/github/mefyl/ocaml-squirrel-niose)
+
 Implementation of the version 5 of the Squirrel noise function as
 [introduced by Squirrel Eiserloh at GDC](https://youtu.be/LWFzPP8ZbdU).
 

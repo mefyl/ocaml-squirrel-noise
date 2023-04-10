@@ -3,6 +3,7 @@
  (modules test)
  (libraries alcotest squirrel_noise)
  (foreign_stubs
+  (flags :standard -std=c++14)
   (language cxx)
   (include_dirs include)
   (names SquirrelNoise5)))
